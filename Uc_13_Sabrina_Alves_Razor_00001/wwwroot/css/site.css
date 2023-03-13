@@ -20,9 +20,110 @@ body {
 h2.col-xl-11 {
     text-align: center;
 }
-
-div.Texto {
-    position: absolute;
-    top:43%;
-    left:48%;
+h2.col-xl-12 {
+    text-align: center;
 }
+h2.col-xl-13 {
+    text-align: center;
+}
+
+
+selection.subtitulo {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.centro {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0;
+    padding: 0 2%;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 5rem 0;
+    font-family: Heebo;
+    font-size: 40px;
+}
+
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 980px;
+    margin: 0 auto;
+    grid-gap: 40px;
+}
+
+
+card.usuarios {
+    width: 5px
+}
+
+.usuarios {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.card {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px;
+    box-shadow: 6px 6px 10px;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.Objetivo{
+    display: flex;
+    justify-content:center;
+}
+div.ObjTexto {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+
+
